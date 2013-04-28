@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;meshable/custom_devices/xbee_serial_terminal.py&apos; to &apos;4CT.py&apos;" description="Rename resource &apos;xbee_serial_terminal.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="custom_devices/xbee_serial_terminal.py" name="4CT.py" stamp="1363400609951" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;meshable/custom_devices/4CT.py&apos; to &apos;FourCT.py&apos;" description="Rename resource &apos;4CT.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="custom_devices/4CT.py" name="FourCT.py" stamp="1363467538590" updateReferences="true"/>
+</session>

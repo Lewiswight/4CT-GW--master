@@ -1,0 +1,15 @@
+devices: 
+  - name: xbee_device_manager
+    driver: devices.xbee.xbee_device_manager.xbee_device_manager:XBeeDeviceManager
+
+  - name: xbee_serial_terminal0
+    driver: custom_devices.FourCT:XBeeSerialTerminal
+    settings: 
+        xbee_device_manager: "xbee_device_manager"
+        extended_address: "00:13:A2:00:40:48:95:45!"
+
+presentations: 
+  - name: web0
+    driver: presentations.web.web:Web
+    settings: 
+        title: "EchoMeter Demo Page"

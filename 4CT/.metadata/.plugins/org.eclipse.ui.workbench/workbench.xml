@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="21" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="21" y="56">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.ui.views.ResourceNavigator"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="134" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.digi.dpdev.ui.actionSet.DPDevElementCreationActionSet" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="com.digi.dpdev.ui.actionSet.DPDevTargetActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="com.digi.dpdev.ui.actionSet.DigiPythonViews" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="com.digi.dpdev.ui.actionSet.iDigiConnection" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="com.digi.workbench.remoteConfiguration.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="70" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="updatemanager.actionSet" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.digi.dpdev.ui.editors.YMLSmartEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1344029938217" focus="true" label="Workspace - DigiPython">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.digi.dpdev.ui.editors.YMLSmartEditor" name="HouseLynx1.yml" partName="HouseLynx1.yml" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/HouseLynx1.yml" title="HouseLynx1.yml" tooltip="meshable/HouseLynx1.yml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/HouseLynx1.yml"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="FourCT.py" partName="FourCT" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/FourCT.py" title="FourCT" tooltip="meshable/custom_devices/FourCT.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/FourCT.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7586" selectionTopPixel="1302"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="MistAway_Controller_update2.1.py" partName="MistAway_Controller_update2" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/MistAway_Controller_update2.1.py" title="MistAway_Controller_update2" tooltip="meshable/custom_devices/MistAway_Controller_update2.1.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/MistAway_Controller_update2.1.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="60598" selectionTopPixel="24045"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="echometerUploader.py" partName="echometerUploader" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_presentations/presentations/idigi_db/echometerUploader.py" title="echometerUploader" tooltip="meshable/custom_presentations/presentations/idigi_db/echometerUploader.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_presentations/presentations/idigi_db/echometerUploader.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="8331" selectionTopPixel="4840"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="xbee_serialCT.py" partName="xbee_serialCT" title="xbee_serialCT" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_serialCT.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_serialCT.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5441" selectionTopPixel="1851"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="prodid.py" partName="prodid" title="prodid" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6795" selectionTopPixel="2377"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="hl_main.py" partName="hl_main" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/hl_main.py" title="hl_main" tooltip="meshable/custom_devices/hl_main.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/hl_main.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4382" selectionTopPixel="1442"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal 1">
+<viewState ConnectionType="org.eclipse.tm.internal.terminal.telnet.TelnetConnector" Title="Terminal 1" _keys_="ConnectionType,Title,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.User,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.NetworkPort,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Timeout,connectionManagersize,org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive,org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,org.eclipse.tm.internal.terminal.ssh.SshConnector.User,org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Host,org.eclipse.tm.internal.terminal.telnet.TelnetConnector.NetworkPort,org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Timeout" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.telnet.TelnetConnector" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="Terminal 1" connectionManagerconnection0Summary="172.16.3.159:23" connectionManagersize="1">
+<connectionManagerconnection0org>
+<eclipse>
+<tm>
+<internal>
+<terminal>
+<ssh>
+<SshConnector Host="10.1.10.62" Keepalive="300" Port="22" Timeout="5" User="python"/>
+</ssh>
+<telnet>
+<TelnetConnector Host="172.16.3.159" NetworkPort="23" Timeout="10"/>
+</telnet>
+</terminal>
+</internal>
+</tm>
+</eclipse>
+</connectionManagerconnection0org>
+<org>
+<eclipse>
+<tm>
+<internal>
+<terminal>
+<ssh>
+<SshConnector Host="10.1.10.62" Keepalive="300" Port="22" Timeout="5" User="python"/>
+</ssh>
+<telnet>
+<TelnetConnector Host="172.16.3.159" NetworkPort="23" Timeout="10"/>
+</telnet>
+</terminal>
+</internal>
+</tm>
+</eclipse>
+</org>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element="*.class" isEnabled="true"/>
+<filter element=".*" isEnabled="false"/>
+<filter element="*.pyc" isEnabled="true"/>
+<filter element="*.class" isEnabled="true"/>
+<filter element="*.pyo" isEnabled="true"/>
+</filters>
+<expanded>
+<element path="/meshable"/>
+<element path="/meshable/custom_devices"/>
+<element path="/meshable/custom_loggers"/>
+<element path="/meshable/custom_presentations"/>
+<element path="/meshable/custom_presentations/presentations"/>
+<element path="/meshable/custom_presentations/presentations/idigi_db"/>
+</expanded>
+<selection>
+<element path="/meshable/custom_presentations/presentations/idigi_db/idigi_dbM.py"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="652"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109" partName="meshable Console">
+<viewState ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" Host="172.16.15.109" Password="dbps" Port="22" Timeout="5" Title="meshable Console" User="python" _keys_="ConnectionType,Host,Password,Port,Timeout,Title,User,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.User,connectionManagersize,org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,org.eclipse.tm.internal.terminal.ssh.SshConnector.User" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="meshable Console" connectionManagerconnection0Summary="python@172.16.15.109" connectionManagersize="1">
+<connectionManagerconnection0org>
+<eclipse>
+<tm>
+<internal>
+<terminal>
+<ssh>
+<SshConnector Host="172.16.15.109" Port="22" Timeout="5" User="python"/>
+</ssh>
+</terminal>
+</internal>
+</tm>
+</eclipse>
+</connectionManagerconnection0org>
+<org>
+<eclipse>
+<tm>
+<internal>
+<terminal>
+<ssh>
+<SshConnector Host="172.16.15.109" Port="22" Timeout="5" User="python"/>
+</ssh>
+</terminal>
+</internal>
+</tm>
+</eclipse>
+</org>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.186" partName="meshable Console">
+<viewState ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" Host="172.16.4.186" Password="dbps" Port="22" Timeout="5" Title="meshable Console" User="python" _keys_="ConnectionType,Host,Password,Port,Timeout,Title,User,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.User,connectionManagersize,org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,org.eclipse.tm.internal.terminal.ssh.SshConnector.User" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="meshable Console" connectionManagerconnection0Summary="python@172.16.4.186" connectionManagersize="1">
+<connectionManagerconnection0org>
+<eclipse>
+<tm>
+<internal>
+<terminal>
+<ssh>
+<SshConnector Host="172.16.4.186" Port="22" Timeout="5" User="python"/>
+</ssh>
+</terminal>
+</internal>
+</tm>
+</eclipse>
+</connectionManagerconnection0org>
+<org>
+<eclipse>
+<tm>
+<internal>
+<terminal>
+<ssh>
+<SshConnector Host="172.16.4.186" Port="22" Timeout="5" User="python"/>
+</ssh>
+</terminal>
+</internal>
+</tm>
+</eclipse>
+</org>
+</viewState>
+</view>
+</views>
+<perspectives activePart="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109" activePerspective="com.digi.dpdev.ui.perspectives.dpdevPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.digi.dpdev.ui.perspective.DpDevPerspective" id="com.digi.dpdev.ui.perspectives.dpdevPerspective" label="DigiPython"/>
+<alwaysOnActionSet id="updatemanager.actionSet"/>
+<alwaysOnActionSet id="com.digi.workbench.remoteConfiguration.actionSet"/>
+<alwaysOnActionSet id="com.digi.dpdev.ui.actionSet.iDigiConnection"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.digi.dpdev.ui.actionSet.DPDevElementCreationActionSet"/>
+<alwaysOnActionSet id="com.digi.dpdev.ui.actionSet.DPDevTargetActionSet"/>
+<alwaysOnActionSet id="com.digi.dpdev.ui.actionSet.DigiPythonViews"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.tm.terminal.view.TerminalView"/>
+<show_view_action id="org.python.pydev.navigator.view"/>
+<show_view_action id="com.digi.dpdev.ui.views.fileexplorerview"/>
+<show_view_action id="com.digi.dpdev.ui.views.channelsviewer"/>
+<show_in_time id="org.eclipse.ui.views.ResourceNavigator" time="1363029440809"/>
+<new_wizard_action id="com.digi.dpdev.build.wizards.DpDevPythonProject"/>
+<new_wizard_action id="com.digi.dpdev.build.wizards.Package"/>
+<new_wizard_action id="com.digi.dpdev.build.wizards.Module"/>
+<new_wizard_action id="com.digi.dpdev.build.wizards.SourceFolder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.digi.dpdev.build.wizards.DPDEVPythonSamplesWizard"/>
+<new_wizard_action id="com.digi.dpdev.build.wizards.DPDEVDiaSamplesWizard"/>
+<new_wizard_action id="com.digi.dpdev.build.wizards.DpDevDIAProject"/>
+<perspective_action id="com.digi.dpdev.debug.remoteDebuggingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.186"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.python.pydev.navigator.view" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1f7dbd8" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19244227" ratioLeft="275" ratioRight="1154" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.4445946" ratioLeft="329" ratioRight="411" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.186" label="meshable Console"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109" label="meshable Console"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable10.1.10.62" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.68" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.181" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.85" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.9.173" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.187" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.116" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.69" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable10.1.10.88" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsolePresentationmeshable" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable10.1.10.44" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.82" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.83" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.85" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.86" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.88" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.97" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.110" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.112" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.113" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.115" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.9.161" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.8" ratioLeft="640" ratioRight="160" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="com.digi.dpdev.ui.views.fileexplorerview" ratio="0.64945227" ratioLeft="415" ratioRight="224" relationship="4" relative="topLeft"/>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.digi.dpdev.ui.perspective.RemoteDebuggingPerspective" id="com.digi.dpdev.debug.remoteDebuggingPerspective" label="Remote Debugging"/>
+<alwaysOnActionSet id="updatemanager.actionSet"/>
+<alwaysOnActionSet id="com.digi.workbench.remoteConfiguration.actionSet"/>
+<alwaysOnActionSet id="com.digi.dpdev.ui.actionSet.iDigiConnection"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.digi.dpdev.ui.actionSet.DPDevTargetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.tm.terminal.view.TerminalView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.digi.dpdev.ui.views.fileexplorerview"/>
+<show_view_action id="com.digi.dpdev.ui.views.channelsviewer"/>
+<perspective_action id="com.digi.dpdev.ui.perspectives.dpdevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1194" ratioRight="398" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="rightTop" ratio="0.5998744" ratioLeft="955" ratioRight="637" relationship="2" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="rightMiddle" ratio="0.34968552" ratioLeft="278" ratioRight="517" relationship="4" relative="rightTop">&#x0A;<folder activePageID="org.eclipse.ui.views.ProgressView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="rigthBottom" ratio="0.1992263" ratioLeft="103" ratioRight="414" relationship="4" relative="rightMiddle">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal 1"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2260101" ratioLeft="179" ratioRight="613" relationship="4" relative="topLeft"/>
+<info folder="true" part="topRight" ratio="0.49947643" ratioLeft="477" ratioRight="478" relationship="2" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="idigi_dbM.py" tooltip="meshable/custom_presentations/presentations/idigi_db/idigi_dbM.py">
+<persistable path="/meshable/custom_presentations/presentations/idigi_db/idigi_dbM.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="hl_main.py" tooltip="meshable/custom_devices/hl_main.py">
+<persistable path="/meshable/custom_devices/hl_main.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="hl_main.py" tooltip="/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/hl_main.py">
+<persistable uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/hl_main.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Old YML versions.txt" tooltip="meshable/Old YML versions.txt">
+<persistable path="/meshable/Old YML versions.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="prodid.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py">
+<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="xbee_serial.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_serial.py">
+<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_serial.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="echometerUploader.py" tooltip="meshable/custom_presentations/presentations/idigi_db/echometerUploader.py">
+<persistable path="/meshable/custom_presentations/presentations/idigi_db/echometerUploader.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="MistAway_Controller_update2.1.py" tooltip="meshable/custom_devices/MistAway_Controller_update2.1.py">
+<persistable path="/meshable/custom_devices/MistAway_Controller_update2.1.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="xbee_base.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_base.py">
+<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_base.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="threshold_with_hysteresis.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/filter_channels/threshold_with_hysteresis.py">
+<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/filter_channels/threshold_with_hysteresis.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="xbee_sensor.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_sensor.py">
+<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_sensor.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="FourCT.py" tooltip="meshable/custom_devices/FourCT.py">
+<persistable path="/meshable/custom_devices/FourCT.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="meshable/custom_devices/test.py">
+<persistable path="/meshable/custom_devices/test.py"/>
+</file>
+</mruList>
+</workbench>

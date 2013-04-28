@@ -1,0 +1,6 @@
+MODULES_MANAGER_V2
+FourCT|/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/FourCT.py
+Testing|/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/Testing.py
+hl_main|/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/hl_main.py
+presentations.idigi_db.echometerUploader|/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_presentations/presentations/idigi_db/echometerUploader.py
+presentations.idigi_db.emUploader|/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_presentations/presentations/idigi_db/emUploader.py

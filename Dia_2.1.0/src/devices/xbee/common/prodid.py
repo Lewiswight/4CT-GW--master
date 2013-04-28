@@ -86,7 +86,7 @@ MOD_XBS_NO_EXPLICIT_RX = (MOD_XB_802154, MOD_XB_868)
 # Product Types
 
 # Digi-Branded Products:
-MISTAWAY_CONTROLLER_MC3D        = 0x0000
+ECHOMETER_CT                    = 0x0000
 PROD_DIGI_CPX8                  = 0x0001
 PROD_DIGI_CPX4                  = 0x0002
 PROD_DIGI_CPX2                  = 0x0003
@@ -160,6 +160,7 @@ MISTAWAY_CONTROLLER_MC3Z        = 0X0402
 MISTAWAY_CONTROLLER_MC1         = 0X0403
 MISTAWAY_CONTROLLER_MC1Z        = 0X0404
 
+#ECHOMETER_CT                    = 0X0501
 
 PROD_NAME_MAP = {
 
@@ -167,11 +168,12 @@ PROD_NAME_MAP = {
     #PROD_DIGI_UNSPECIFIED: "Unspecified",
     LYNXEE: "Lynxee thermostst",
     PROD_DIGI_MOTION: "Houselynx Motion",
-    MISTAWAY_CONTROLLER_MC3D: "Dummy Device",
+#    MISTAWAY_CONTROLLER_MC3D: "Dummy Device",
     MISTAWAY_CONTROLLER_MC3: "mc3",
     MISTAWAY_CONTROLLER_MC3Z: "mc3z",
     MISTAWAY_CONTROLLER_MC1: "mc13",
     MISTAWAY_CONTROLLER_MC1Z: "mc13z",
+    ECHOMETER_CT: "CT",
     RCS_THERMOSTAT: "Houselynx Thermsotat",
     HOUSE_LYNX_VENT: "Houselynx Smart Vent",
     SERIAL_TEMP: "Houselynx Serial Temp",

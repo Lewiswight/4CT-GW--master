@@ -128,6 +128,9 @@ from devices.xbee.common.addressing import *
 from devices.xbee.common.io_sample import parse_is
 from devices.xbee.common.prodid import *
 
+from devices.xbee.common.prodid import MOD_XB_ZB as MOD_XB_ZB1
+from devices.xbee.common.prodid import MOD_XB_S2C_ZB1 as MOD_XB_S2C_ZB1   
+    
 # constants
 
 # exception classes
@@ -200,6 +203,11 @@ class XBeeSerial(XBeeBase):
     DEF_PARITY = 'none'
     DEF_STOPBITS = 1
     DEF_HWFLOW = 'false'
+    DEF_SLEEP = False
+    DEF_SAMPLE_MS = 60000
+    DEF_AWAKE_MS = 2000
+    DEF_PREDELAY = 125
+    DEF_HUMIDITY = False
 
     def __init__(self, name, core_services, set_in=None, prop_in=None):
 
@@ -212,6 +220,26 @@ class XBeeSerial(XBeeBase):
 
         ## Settings Table Definition:
         settings_list = [
+            Setting(
+                name='sleep', type=bool, required=False,
+                default_value=self.DEF_SLEEP),
+            Setting(
+                name='sample_rate_ms', type=int, required=False,
+                default_value=self.DEF_SAMPLE_MS,
+                verify_function=lambda x: x >= 0 and \
+                                          x <= CYCLIC_SLEEP_EXT_MAX_MS),
+
+            # These settings are provided for advanced users, they
+            # are not required:
+
+            Setting(
+                name='awake_time_ms', type=int, required=False,
+                default_value=self.DEF_AWAKE_MS,
+                verify_function=lambda x: x >= 0 and x <= 0xffff),
+            Setting(
+                name='sample_predelay', type=int, required=False,
+                default_value=self.DEF_PREDELAY,
+                verify_function=lambda x: x >= 0 and x <= 0xffff),
             Setting(
                 name='baudrate', type=int, required=False,
                 default_value=self.DEF_BAUDRATE,
@@ -294,7 +322,7 @@ class XBeeSerial(XBeeBase):
     ## Functions which must be implemented to conform to the DeviceBase
     ## interface:
 
-    # use XBeeBase.apply_settings()
+        XBeeBase.apply_settings()
 
     def start(self):
         """Start the device driver.  Returns bool."""
@@ -307,6 +335,32 @@ class XBeeSerial(XBeeBase):
         XBeeBase.pre_start(self)
 
         self.initialize_xbee_serial()
+        """
+        will_sleep = SettingsBase.get_setting(self, "sleep")
+        sample_predelay = SettingsBase.get_setting(self, "sample_predelay")
+        awake_time_ms = (SettingsBase.get_setting(self, "awake_time_ms") +
+                         sample_predelay)
+
+        if will_sleep:
+            # Sample time pre-delay, allow the circuitry to power up and
+            # settle before we allow the XBee to send us a sample:
+            xbee_ddo_wh_block = XBeeConfigBlockDDO(self._extended_address)
+            xbee_ddo_wh_block.apply_only_to_modules((MOD_XB_ZB1,
+                                                     MOD_XB_S2C_ZB1,))
+            xbee_ddo_wh_block.add_parameter('WH', sample_predelay)
+            self._xbee_manager.xbee_device_config_block_add(self,
+                                    xbee_ddo_wh_block)
+
+        # The original sample rate is used as the sleep rate:
+        sleep_rate_ms = SettingsBase.get_setting(self, "sample_rate_ms")
+
+        # not including sample_predelay here... specially configured above
+        xbee_sleep_cfg = self._xbee_manager.get_sleep_block(
+            self._extended_address, sleep=will_sleep,
+            sleep_rate_ms=sleep_rate_ms, awake_time_ms=awake_time_ms)
+
+        self._xbee_manager.xbee_device_config_block_add(self,
+                                                         xbee_sleep_cfg)"""
 
         # we've no more to config, indicate we're ready to configure.
         return XBeeBase.start(self)
