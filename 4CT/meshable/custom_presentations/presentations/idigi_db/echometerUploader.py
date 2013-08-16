@@ -537,15 +537,15 @@ class Uploader(PresentationBase, threading.Thread):
             
             print string
             
-          #  self.filenumber += 1
+            #self.filenumber += 1
         
             
             
-          #  file = str(self.filenumber)
+            #file = str(self.filenumber)
             
-          #  file2 = open("WEB/python/XML" + file + ".txt", "w")
+            #file2 = open("/userfs/WEB/python/XML" + file + ".txt", "w")
             
-          #  file2.write(string)
+            #file2.write(string)
             
           #  file2.close()
             main_addr = "mainMistaway_" + gw_extended_address()
@@ -585,11 +585,11 @@ class Uploader(PresentationBase, threading.Thread):
             res = webservice.getfile().read()
             print res
             
-          #  file3 = open("WEB/python/Resp" + file + ".txt", "w")
+            #file3 = open("/userfs/WEB/python" + file + ".txt", "w")
             
-          #  file3.write(res)
+            #file3.write(res)
             
-          #  file3.close()
+            #file3.close()
             
             
             

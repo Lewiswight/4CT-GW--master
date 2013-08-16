@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="21" y="56">
+<window height="1007" maximized="true" width="1778" x="1505" y="-155">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ui.views.ResourceNavigator"/>
 </fastViewData>
@@ -26,7 +26,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.digi.dpdev.ui.editors.YMLSmartEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -46,6 +46,10 @@
 <part id="5"/>
 <part id="6"/>
 <part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
 </presentation>
 </folder>
 </info>
@@ -53,66 +57,69 @@
 <editor id="com.digi.dpdev.ui.editors.YMLSmartEditor" name="HouseLynx1.yml" partName="HouseLynx1.yml" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/HouseLynx1.yml" title="HouseLynx1.yml" tooltip="meshable/HouseLynx1.yml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/HouseLynx1.yml"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="FourCT.py" partName="FourCT" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/FourCT.py" title="FourCT" tooltip="meshable/custom_devices/FourCT.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/FourCT.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7586" selectionTopPixel="1302"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="MistAway_Controller_update2.1.py" partName="MistAway_Controller_update2" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/MistAway_Controller_update2.1.py" title="MistAway_Controller_update2" tooltip="meshable/custom_devices/MistAway_Controller_update2.1.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/MistAway_Controller_update2.1.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="60598" selectionTopPixel="24045"/>
-</editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="echometerUploader.py" partName="echometerUploader" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_presentations/presentations/idigi_db/echometerUploader.py" title="echometerUploader" tooltip="meshable/custom_presentations/presentations/idigi_db/echometerUploader.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_presentations/presentations/idigi_db/echometerUploader.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="8331" selectionTopPixel="4840"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17443" selectionTopPixel="7919"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="xbee_serialCT.py" partName="xbee_serialCT" title="xbee_serialCT" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_serialCT.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_serialCT.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5441" selectionTopPixel="1851"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17182" selectionTopPixel="6480"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="prodid.py" partName="prodid" title="prodid" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6795" selectionTopPixel="2377"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6795" selectionTopPixel="2262"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="hl_main.py" partName="hl_main" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/hl_main.py" title="hl_main" tooltip="meshable/custom_devices/hl_main.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/hl_main.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4382" selectionTopPixel="1442"/>
+<editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="7163" selectionTopPixel="2355"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="Testing.py" partName="Testing" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/Testing.py" title="Testing" tooltip="meshable/custom_devices/Testing.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/Testing.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="119" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="FourCT.py" partName="FourCT" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/FourCT.py" title="FourCT" tooltip="meshable/custom_devices/FourCT.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/FourCT.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15568" selectionTopPixel="5925"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="Old YML versions.txt" partName="Old YML versions.txt" title="Old YML versions.txt" tooltip="/Users/lewiswight/MistAway-Gateway/MistAway/meshable/Old YML versions.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/Old%20YML%20versions.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="507" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="test.py" partName="test (4CT.meshable.custom_devices)" path="/Users/lewiswight/4CT-GW--master/4CT/meshable/custom_devices/test.py" title="test (4CT.meshable.custom_devices)" tooltip="meshable/custom_devices/test.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/meshable/custom_devices/test.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="480" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="expatbuilder.py" partName="expatbuilder" title="expatbuilder" tooltip="/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/expatbuilder.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/expatbuilder.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8146" selectionTopPixel="3210"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="minidom.py" partName="minidom" title="minidom" tooltip="/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/minidom.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/minidom.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="19691" selectionTopPixel="8640"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="test.py" partName="test (MistAway.meshable.custom_devices)" title="test (MistAway.meshable.custom_devices)" tooltip="/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/test.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/test.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="105" selectionTopPixel="326"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.ProgressView" partName="Progress">
 <viewState/>
 </view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
 <view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal 1">
 <viewState ConnectionType="org.eclipse.tm.internal.terminal.telnet.TelnetConnector" Title="Terminal 1" _keys_="ConnectionType,Title,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.User,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.NetworkPort,connectionManagerconnection0org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Timeout,connectionManagersize,org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive,org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,org.eclipse.tm.internal.terminal.ssh.SshConnector.User,org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Host,org.eclipse.tm.internal.terminal.telnet.TelnetConnector.NetworkPort,org.eclipse.tm.internal.terminal.telnet.TelnetConnector.Timeout" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.telnet.TelnetConnector" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="Terminal 1" connectionManagerconnection0Summary="172.16.3.159:23" connectionManagersize="1">
-<connectionManagerconnection0org>
-<eclipse>
-<tm>
-<internal>
-<terminal>
-<ssh>
-<SshConnector Host="10.1.10.62" Keepalive="300" Port="22" Timeout="5" User="python"/>
+<connectionManagerconnection0org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<ssh>&#x0A;<SshConnector Host="10.1.10.62" Keepalive="300" Port="22" Timeout="5" User="python"/>
 </ssh>
-<telnet>
-<TelnetConnector Host="172.16.3.159" NetworkPort="23" Timeout="10"/>
+<telnet>&#x0A;<TelnetConnector Host="172.16.3.159" NetworkPort="23" Timeout="10"/>
 </telnet>
 </terminal>
 </internal>
 </tm>
 </eclipse>
 </connectionManagerconnection0org>
-<org>
-<eclipse>
-<tm>
-<internal>
-<terminal>
-<ssh>
-<SshConnector Host="10.1.10.62" Keepalive="300" Port="22" Timeout="5" User="python"/>
+<org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<ssh>&#x0A;<SshConnector Host="10.1.10.62" Keepalive="300" Port="22" Timeout="5" User="python"/>
 </ssh>
-<telnet>
-<TelnetConnector Host="172.16.3.159" NetworkPort="23" Timeout="10"/>
+<telnet>&#x0A;<TelnetConnector Host="172.16.3.159" NetworkPort="23" Timeout="10"/>
 </telnet>
 </terminal>
 </internal>
@@ -121,13 +128,16 @@
 </org>
 </viewState>
 </view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
 <view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
@@ -144,52 +154,22 @@
 <expanded>
 <element path="/meshable"/>
 <element path="/meshable/custom_devices"/>
-<element path="/meshable/custom_loggers"/>
-<element path="/meshable/custom_presentations"/>
-<element path="/meshable/custom_presentations/presentations"/>
-<element path="/meshable/custom_presentations/presentations/idigi_db"/>
 </expanded>
 <selection>
-<element path="/meshable/custom_presentations/presentations/idigi_db/idigi_dbM.py"/>
+<element path="/meshable/custom_devices/FourCT.py"/>
 </selection>
 </viewState>
 </view>
-<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="652"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
-</viewState>
-</view>
 <view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109" partName="meshable Console">
-<viewState ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" Host="172.16.15.109" Password="dbps" Port="22" Timeout="5" Title="meshable Console" User="python" _keys_="ConnectionType,Host,Password,Port,Timeout,Title,User,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.User,connectionManagersize,org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,org.eclipse.tm.internal.terminal.ssh.SshConnector.User" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="meshable Console" connectionManagerconnection0Summary="python@172.16.15.109" connectionManagersize="1">
-<connectionManagerconnection0org>
-<eclipse>
-<tm>
-<internal>
-<terminal>
-<ssh>
-<SshConnector Host="172.16.15.109" Port="22" Timeout="5" User="python"/>
+<viewState ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" Host="172.16.15.109" Password="dbps" Port="22" Timeout="5" Title="meshable Console" User="python" _keys_="ConnectionType,Host,Password,Port,Timeout,Title,User,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.User,connectionManagersize,org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive,org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,org.eclipse.tm.internal.terminal.ssh.SshConnector.User" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="meshable Console" connectionManagerconnection0Summary="python@172.16.25.95" connectionManagersize="1">
+<connectionManagerconnection0org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<ssh>&#x0A;<SshConnector Host="172.16.25.95" Keepalive="300" Port="22" Timeout="5" User="python"/>
 </ssh>
 </terminal>
 </internal>
 </tm>
 </eclipse>
 </connectionManagerconnection0org>
-<org>
-<eclipse>
-<tm>
-<internal>
-<terminal>
-<ssh>
-<SshConnector Host="172.16.15.109" Port="22" Timeout="5" User="python"/>
+<org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<ssh>&#x0A;<SshConnector Host="172.16.25.95" Keepalive="300" Port="22" Timeout="5" User="python"/>
 </ssh>
 </terminal>
 </internal>
@@ -198,18 +178,46 @@
 </org>
 </viewState>
 </view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="652"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
 <view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.186" partName="meshable Console">
 <viewState ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" Host="172.16.4.186" Password="dbps" Port="22" Timeout="5" Title="meshable Console" User="python" _keys_="ConnectionType,Host,Password,Port,Timeout,Title,User,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.User,connectionManagersize,org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,org.eclipse.tm.internal.terminal.ssh.SshConnector.User" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="meshable Console" connectionManagerconnection0Summary="python@172.16.4.186" connectionManagersize="1">
+<connectionManagerconnection0org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<ssh>&#x0A;<SshConnector Host="172.16.4.186" Port="22" Timeout="5" User="python"/>
+</ssh>
+</terminal>
+</internal>
+</tm>
+</eclipse>
+</connectionManagerconnection0org>
+<org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<ssh>&#x0A;<SshConnector Host="172.16.4.186" Port="22" Timeout="5" User="python"/>
+</ssh>
+</terminal>
+</internal>
+</tm>
+</eclipse>
+</org>
+</viewState>
+</view>
+<view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.30.55" partName="meshable Console">
+<viewState ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" Host="172.16.30.55" Password="dbps" Port="22" Timeout="5" Title="meshable Console" User="python" _keys_="ConnectionType,Host,Password,Port,Timeout,Title,User,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,connectionManagerconnection0org.eclipse.tm.internal.terminal.ssh.SshConnector.User,connectionManagersize,org.eclipse.tm.internal.terminal.ssh.SshConnector.Host,org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive,org.eclipse.tm.internal.terminal.ssh.SshConnector.Port,org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout,org.eclipse.tm.internal.terminal.ssh.SshConnector.User" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.ssh.SshConnector" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="meshable Console" connectionManagerconnection0Summary="python@172.16.46.213" connectionManagersize="1">
 <connectionManagerconnection0org>
 <eclipse>
 <tm>
 <internal>
 <terminal>
 <ssh>
-<SshConnector Host="172.16.4.186" Port="22" Timeout="5" User="python"/>
+<SshConnector Host="172.16.46.213" Keepalive="300" Port="22" Timeout="5" User="python"/>
 </ssh>
 </terminal>
 </internal>
@@ -222,7 +230,7 @@
 <internal>
 <terminal>
 <ssh>
-<SshConnector Host="172.16.4.186" Port="22" Timeout="5" User="python"/>
+<SshConnector Host="172.16.46.213" Keepalive="300" Port="22" Timeout="5" User="python"/>
 </ssh>
 </terminal>
 </internal>
@@ -232,7 +240,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109" activePerspective="com.digi.dpdev.ui.perspectives.dpdevPerspective">
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="com.digi.dpdev.ui.perspectives.dpdevPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.digi.dpdev.ui.perspective.DpDevPerspective" id="com.digi.dpdev.ui.perspectives.dpdevPerspective" label="DigiPython"/>
 <alwaysOnActionSet id="updatemanager.actionSet"/>
@@ -282,6 +290,7 @@
 <view id="org.eclipse.ui.views.ProgressView"/>
 <view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.30.55"/>
 <view id="org.eclipse.ui.views.ResourceNavigator"/>
 <fastViewBars/>
 <layout>
@@ -303,9 +312,9 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19244227" ratioLeft="275" ratioRight="1154" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.4445946" ratioLeft="329" ratioRight="411" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.14135759" ratioLeft="202" ratioRight="1227" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.8719758" ratioLeft="865" ratioRight="127" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.30.55" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -313,6 +322,11 @@
 <page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
 <page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.15.109" label="meshable Console"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.30.55" label="meshable Console"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable192.168.3.21" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable192.168.43.245" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable192.168.100.1" label="LabelNotFound"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.20.158" label="LabelNotFound"/>
 <page content="org.eclipse.tm.terminal.view.TerminalView" label="LabelNotFound"/>
 <page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable10.1.10.62" label="LabelNotFound"/>
 <page content="org.eclipse.tm.terminal.view.TerminalView:diaConsoleOutputmeshable172.16.4.68" label="LabelNotFound"/>
@@ -345,6 +359,7 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
@@ -440,7 +455,90 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.digi.dpdev.ui.editors.YMLSmartEditor" path="/meshable/HouseLynx1.yml"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/Old%20YML%20versions.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/meshable/custom_devices/test.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.digi.dpdev.ui.editors.YMLSmartEditor" path="/meshable/HouseLynx1.yml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/meshable/custom_devices/FourCT.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.digi.dpdev.ui.editors.YMLSmartEditor" path="/meshable/HouseLynx1.yml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/meshable/custom_devices/FourCT.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/meshable/custom_devices/test.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/test.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/meshable/custom_devices/FourCT.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/meshable/custom_devices/Testing.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/meshable/custom_devices/hl_main.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/minidom.py"/>
+</editors>
+<item historyLabel="HouseLynx1.yml" index="0"/>
+<item historyLabel="prodid" index="1">
+<position info="not_deleted" x="6795" y="0"/>
+</item>
+<item historyLabel="HouseLynx1.yml" index="0"/>
+<item historyLabel="Old YML versions.txt" index="2">
+<position info="not_deleted" x="7562" y="560"/>
+</item>
+<item historyLabel="test" index="3">
+<position info="not_deleted" x="404" y="0"/>
+</item>
+<item historyLabel="HouseLynx1.yml" index="4"/>
+<item historyLabel="FourCT" index="5">
+<position info="not_deleted" x="4866" y="0"/>
+</item>
+<item historyLabel="HouseLynx1.yml" index="4"/>
+<item historyLabel="FourCT" index="5">
+<position info="not_deleted" x="4866" y="0"/>
+</item>
+<item historyLabel="HouseLynx1.yml" index="6"/>
+<item historyLabel="FourCT" index="5">
+<position info="not_deleted" x="16611" y="0"/>
+</item>
+<item historyLabel="HouseLynx1.yml" index="6"/>
+<item historyLabel="FourCT" index="5">
+<position info="not_deleted" x="15973" y="0"/>
+</item>
+<item historyLabel="HouseLynx1.yml" index="6"/>
+<item historyLabel="FourCT" index="5">
+<position info="not_deleted" x="15973" y="0"/>
+</item>
+<item historyLabel="HouseLynx1.yml" index="6"/>
+<item historyLabel="FourCT" index="7">
+<position info="not_deleted" x="15568" y="0"/>
+</item>
+<item historyLabel="HouseLynx1.yml" index="6"/>
+<item historyLabel="test (4CT.meshable.custom_devices)" index="8">
+<position info="not_deleted" x="480" y="0"/>
+</item>
+<item historyLabel="test (MistAway.meshable.custom_devices)" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FourCT" index="10">
+<position info="not_deleted" x="15568" y="0"/>
+</item>
+<item historyLabel="Testing" index="11">
+<position info="not_deleted" x="119" y="0"/>
+</item>
+<item historyLabel="hl_main" index="12">
+<position info="not_deleted" x="7163" y="2"/>
+</item>
+<item historyLabel="test (MistAway.meshable.custom_devices)" index="9">
+<position info="not_deleted" x="237" y="0"/>
+</item>
+<item historyLabel="FourCT" index="10">
+<position info="not_deleted" x="15568" y="0"/>
+</item>
+<item historyLabel="hl_main" index="12">
+<position info="not_deleted" x="7163" y="2"/>
+</item>
+<item historyLabel="minidom" index="13">
+<position info="not_deleted" x="19691" y="2"/>
+</item>
+<item active="true" historyLabel="test (MistAway.meshable.custom_devices)" index="9">
+<position info="not_deleted" x="237" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -457,6 +555,36 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/test.py">
+<persistable uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/test.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="MistAway_Controller_updated_Dia2.py" tooltip="/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/MistAway_Controller_updated_Dia2.py">
+<persistable uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_devices/MistAway_Controller_updated_Dia2.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="minidom.py" tooltip="/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/minidom.py">
+<persistable uri="file:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/minidom.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="expatbuilder.py" tooltip="/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/expatbuilder.py">
+<persistable uri="file:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/expatbuilder.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="meshable/custom_devices/test.py">
+<persistable path="/meshable/custom_devices/test.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="rci_handlerSocket.py" tooltip="/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_presentations/presentations/rci/rci_handlerSocket.py">
+<persistable uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/custom_presentations/presentations/rci/rci_handlerSocket.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="rci_handlerSocket.py" tooltip="meshable/custom_presentations/presentations/rci/rci_handlerSocket.py">
+<persistable path="/meshable/custom_presentations/presentations/rci/rci_handlerSocket.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Old YML versions.txt" tooltip="/Users/lewiswight/MistAway-Gateway/MistAway/meshable/Old YML versions.txt">
+<persistable uri="file:/Users/lewiswight/MistAway-Gateway/MistAway/meshable/Old%20YML%20versions.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="FourCT.py" tooltip="meshable/custom_devices/FourCT.py">
+<persistable path="/meshable/custom_devices/FourCT.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="Testing.py" tooltip="meshable/custom_devices/Testing.py">
+<persistable path="/meshable/custom_devices/Testing.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="idigi_dbM.py" tooltip="meshable/custom_presentations/presentations/idigi_db/idigi_dbM.py">
 <persistable path="/meshable/custom_presentations/presentations/idigi_db/idigi_dbM.py"/>
 </file>
@@ -471,30 +599,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="prodid.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py">
 <persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/common/prodid.py"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="xbee_serial.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_serial.py">
-<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_serial.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="echometerUploader.py" tooltip="meshable/custom_presentations/presentations/idigi_db/echometerUploader.py">
-<persistable path="/meshable/custom_presentations/presentations/idigi_db/echometerUploader.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="MistAway_Controller_update2.1.py" tooltip="meshable/custom_devices/MistAway_Controller_update2.1.py">
-<persistable path="/meshable/custom_devices/MistAway_Controller_update2.1.py"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="xbee_base.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_base.py">
-<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_base.py"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="threshold_with_hysteresis.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/filter_channels/threshold_with_hysteresis.py">
-<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/filter_channels/threshold_with_hysteresis.py"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="xbee_sensor.py" tooltip="/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_sensor.py">
-<persistable uri="file:/Users/lewiswight/4CT-GW--master/Dia_2.1.0/src/devices/xbee/xbee_devices/xbee_sensor.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="FourCT.py" tooltip="meshable/custom_devices/FourCT.py">
-<persistable path="/meshable/custom_devices/FourCT.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="meshable/custom_devices/test.py">
-<persistable path="/meshable/custom_devices/test.py"/>
 </file>
 </mruList>
 </workbench>

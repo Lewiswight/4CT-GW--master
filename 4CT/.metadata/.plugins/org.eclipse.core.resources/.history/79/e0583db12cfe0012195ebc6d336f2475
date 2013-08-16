@@ -1,0 +1,37 @@
+devices: 
+  - name: xbee_device_manager
+    driver: devices.xbee.xbee_device_manager.xbee_device_manager:XBeeDeviceManager
+
+  - name: xbee_autoenum
+    driver: devices.xbee.xbee_devices.xbee_autoenum:XBeeAutoEnum
+    settings: 
+        discover_rate: 65
+        xbee_device_manager: "xbee_device_manager"
+        devices: 
+          - name: "CT"
+            driver: "custom_devices.FourCT:XBeeSerialTerminal"
+            settings: 
+                xbee_device_manager: "xbee_device_manager"
+                extended_address: ""
+
+
+presentations:  
+  - name: rci0
+    driver: custom_presentations.presentations.rci.rci_handlerSocket:RCIHandler
+    settings: 
+        target_name: "Socket"
+
+  - name: rci1
+    driver: presentations.rci.rci_handler:RCIHandler
+    settings: 
+        target_name: "dia"
+
+  - name: web0
+    driver: presentations.web.web:Web
+    settings: 
+        title: "EchoMeter Demo Page"
+
+  - name: Uploader
+    driver: custom_presentations.presentations.idigi_db.echometerUploader:Uploader
+    settings: 
+        interval: 5

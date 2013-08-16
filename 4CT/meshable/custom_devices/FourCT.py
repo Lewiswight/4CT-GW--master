@@ -97,7 +97,7 @@ import types
 import traceback
 import binascii
 import threading
-
+import time
 import xml.dom.minidom
 
 # this is our base/parent class
@@ -202,19 +202,7 @@ class XBeeSerialTerminal(XBeeSerial):
                 initial=Sample(timestamp=0, unit="", value=""),
                 perms_mask=DPROP_PERM_GET, options=DPROP_OPT_AUTOTIMESTAMP),
             
-            ChannelSourceDeviceProperty(name="ch1_amps", type=str,
-                initial=Sample(timestamp=0, unit="", value=""),
-                perms_mask=DPROP_PERM_GET, options=DPROP_OPT_AUTOTIMESTAMP),
-            
-            ChannelSourceDeviceProperty(name="ch2_amps", type=str,
-                initial=Sample(timestamp=0, unit="", value=""),
-                perms_mask=DPROP_PERM_GET, options=DPROP_OPT_AUTOTIMESTAMP),
-            
-            ChannelSourceDeviceProperty(name="ch3_amps", type=str,
-                initial=Sample(timestamp=0, unit="", value=""),
-                perms_mask=DPROP_PERM_GET, options=DPROP_OPT_AUTOTIMESTAMP),
-            
-            ChannelSourceDeviceProperty(name="ch4_amps", type=str,
+            ChannelSourceDeviceProperty(name="Battery_Voltage", type=str,
                 initial=Sample(timestamp=0, unit="", value=""),
                 perms_mask=DPROP_PERM_GET, options=DPROP_OPT_AUTOTIMESTAMP),
                         
@@ -410,8 +398,8 @@ class XBeeSerialTerminal(XBeeSerial):
         #print "<html>"
         print "time is"
         self.handleTime(xml_data.getElementsByTagName("time")[0])
-        print "log number is"
-        self.handleLog(xml_data.getElementsByTagName("log")[0])
+        print "Battery voltage is"
+        self.handleBat(xml_data.getElementsByTagName("bat")[0])
         print "the read number is:"
         self.handleCount(xml_data.getElementsByTagName("count")[0])
         for i in range(1, 5):
@@ -429,22 +417,26 @@ class XBeeSerialTerminal(XBeeSerial):
     
     def handleCh(self, channel, name):
         
-        amps = channel.attributes["pow"].value
+        
         meter = channel.attributes["meter"].value
         volts = self.getText(channel.childNodes)
         
-        print amps + " " + volts + " " + meter
+        
         
         volts_name = name + "_volts"
-        amps_name = name + "_amps"
+        
         meter_name = name + "_meter"
         
-        self.property_set(volts_name, Sample(0, str(volts), "volts"))
-        self.property_set(amps_name, Sample(0, str(amps), "amps"))
-        self.property_set(meter_name, Sample(0, str(meter), "meter"))
+        self.property_set(volts_name, Sample(time.time(), str(volts), "volts"))
+        
+        self.property_set(meter_name, Sample(time.time(), str(meter), "meter"))
 
     def handleLog(self, log):
         print self.getText(log.childNodes)
+    
+    def handleBat(self, bat):
+       bat = self.getText(bat.childNodes)
+       self.property_set("Battery_Voltage", Sample(0, str(bat), "volts"))
     
     def handleCount(self, count):
        count = self.getText(count.childNodes)
@@ -477,6 +469,7 @@ class XBeeSerialTerminal(XBeeSerial):
         # Note: the SET action to a channel does NOT automatically
         # update the channel data.
         # If desired, the callback needs to do that manually
+        data.timestamp = time.time()
         self.property_set("write", data)
 
         if SettingsBase.get_setting(self, "hexadecimal"):

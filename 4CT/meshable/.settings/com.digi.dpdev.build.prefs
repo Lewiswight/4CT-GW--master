@@ -1,10 +1,10 @@
-#Wed Apr 24 14:54:45 CDT 2013
+#Mon Aug 05 19:08:08 CDT 2013
 Dia_path=/Users/lewiswight/4CT-GW--master/Dia_2.1.0
-IP=172.16.15.109
+IP=172.16.47.43
 autocontained_project=false
 compile_sources=true
 configuration_file=HouseLynx1.yml
-device=ConnectPort X2e Wi-Fi ZB
+device=ConnectPort X2D
 eclipse.preferences.version=1
 remote_config_name=X2
 remove_docstrings=true

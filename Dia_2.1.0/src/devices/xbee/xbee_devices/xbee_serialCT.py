@@ -128,9 +128,9 @@ from devices.xbee.common.addressing import *
 from devices.xbee.common.io_sample import parse_is
 from devices.xbee.common.prodid import *
 
-#from devices.xbee.common.prodid import MOD_XB_ZB as MOD_XB_ZB1
-#from devices.xbee.common.prodid import MOD_XB_S2C_ZB1 as MOD_XB_S2C_ZB1   
-    
+from devices.xbee.common.prodid import MOD_XB_ZB as MOD_XB_ZB1
+from devices.xbee.common.prodid import MOD_XB_S2C_ZB as MOD_XB_S2C_ZB1   
+from devices.xbee.xbee_config_blocks.xbee_config_block_sleep import CYCLIC_SLEEP_EXT_MAX_MS, SM_DISABLED, XBeeConfigBlockSleep
 # constants
 
 # exception classes
@@ -203,7 +203,7 @@ class XBeeSerial(XBeeBase):
     DEF_PARITY = 'none'
     DEF_STOPBITS = 1
     DEF_HWFLOW = 'false'
-    DEF_SLEEP = False
+    DEF_SLEEP = True
     DEF_SAMPLE_MS = 60000
     DEF_AWAKE_MS = 2000
     DEF_PREDELAY = 125
@@ -227,7 +227,7 @@ class XBeeSerial(XBeeBase):
                 name='sample_rate_ms', type=int, required=False,
                 default_value=self.DEF_SAMPLE_MS,
                 verify_function=lambda x: x >= 0 and \
-                                          x <= CYCLIC_SLEEP_EXT_MAX_MS),
+                                          x <= 60001),
 
             # These settings are provided for advanced users, they
             # are not required:
@@ -335,32 +335,8 @@ class XBeeSerial(XBeeBase):
         XBeeBase.pre_start(self)
 
         self.initialize_xbee_serial()
-        """
-        will_sleep = SettingsBase.get_setting(self, "sleep")
-        sample_predelay = SettingsBase.get_setting(self, "sample_predelay")
-        awake_time_ms = (SettingsBase.get_setting(self, "awake_time_ms") +
-                         sample_predelay)
-
-        if will_sleep:
-            # Sample time pre-delay, allow the circuitry to power up and
-            # settle before we allow the XBee to send us a sample:
-            xbee_ddo_wh_block = XBeeConfigBlockDDO(self._extended_address)
-            xbee_ddo_wh_block.apply_only_to_modules((MOD_XB_ZB1,
-                                                     MOD_XB_S2C_ZB1,))
-            xbee_ddo_wh_block.add_parameter('WH', sample_predelay)
-            self._xbee_manager.xbee_device_config_block_add(self,
-                                    xbee_ddo_wh_block)
-
-        # The original sample rate is used as the sleep rate:
-        sleep_rate_ms = SettingsBase.get_setting(self, "sample_rate_ms")
-
-        # not including sample_predelay here... specially configured above
-        xbee_sleep_cfg = self._xbee_manager.get_sleep_block(
-            self._extended_address, sleep=will_sleep,
-            sleep_rate_ms=sleep_rate_ms, awake_time_ms=awake_time_ms)
-
-        self._xbee_manager.xbee_device_config_block_add(self,
-                                                         xbee_sleep_cfg)"""
+        
+        
 
         # we've no more to config, indicate we're ready to configure.
         return XBeeBase.start(self)
@@ -388,6 +364,8 @@ class XBeeSerial(XBeeBase):
 
         Returns True if successful, False on failure.
         """
+        
+        extended_address = SettingsBase.get_setting(self, "extended_address")
 
         self._tracer.calls("XBeeSerial.initialize_xbee_serial()")
 
@@ -444,6 +422,32 @@ class XBeeSerial(XBeeBase):
         #xbee_ddo_cfg.add_parameter('D7', d7)
         xbee_ddo_cfg.add_parameter('D7', 7)
         self._xbee_manager.xbee_device_config_block_add(self, xbee_ddo_cfg)
+        
+        
+        will_sleep = SettingsBase.get_setting(self, "sleep")
+        sample_predelay = SettingsBase.get_setting(self, "sample_predelay")
+        awake_time_ms = (SettingsBase.get_setting(self, "awake_time_ms") +
+                         sample_predelay)
+
+        if will_sleep:
+            # Sample time pre-delay, allow the circuitry to power up and
+            # settle before we allow the XBee to send us a sample:
+            xbee_ddo_wh_block = XBeeConfigBlockDDO(extended_address)
+            xbee_ddo_wh_block.apply_only_to_modules((MOD_XB_ZB1,
+                                                     MOD_XB_S2C_ZB1,))
+            xbee_ddo_wh_block.add_parameter('WH', sample_predelay)
+            self._xbee_manager.xbee_device_config_block_add(self,
+                                    xbee_ddo_wh_block)
+
+
+        sleep_rate_ms = SettingsBase.get_setting(self, "sample_rate_ms")
+        xbee_sleep_cfg = XBeeConfigBlockSleep(extended_address)
+        if will_sleep:
+            xbee_sleep_cfg.sleep_cycle_set(awake_time_ms, sleep_rate_ms, enable_pin_wake=True)
+        else:
+            xbee_sleep_cfg.sleep_mode_set(SM_DISABLED)
+        self._xbee_manager.xbee_device_config_block_add(self, xbee_sleep_cfg)
+        
 
         return True
 

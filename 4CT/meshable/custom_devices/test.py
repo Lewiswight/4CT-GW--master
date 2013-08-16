@@ -9,12 +9,49 @@ doc = """<com>
         </channels>
 </com>"""
 
+doc2 =      """
+                <channel_set name='gate_[00:13:a2:00:40:31:56:96]!.activate' value='On'/> 
+            """
+
+
+
+doc3 = """<?xml version="1.0" ?>
+<zAppointments reminder="15">
+    <appointment>
+        <begin>1181251680</begin>        
+        <uid>040000008200E000</uid>
+        <alarmTime>1181572063</alarmTime>
+        <state></state>
+        <location></location>
+        <duration>1800</duration>
+        <subject>Bring pizza home</subject>
+    </appointment>
+</zAppointments>"""
+
 
 import xml.dom.minidom
 
 
 
-dom = xml.dom.minidom.parseString(doc)
+doc = xml.dom.minidom.parseString(doc2)
+#nodes = doc.documentElement.childNodes
+nodes = doc.getElementsByTagName("channel_set")
+print len(nodes)       
+#if node.nodeType == xml.dom.Node.ELEMENT_NODE:
+#print 'Element name: %s' % node.nodeName
+for node in nodes:
+    print node.toxml()
+    test = node.toxml()
+    
+    try:
+        for (name, value) in node.attributes.items():
+            print '    Attr -- Name: %s  Value: %s ' % (name, value)
+            #if name == 'reminder':
+             #   self.rem_value = value
+    except:
+        continue
+
+
 
 def getText(nodelist):
     rc = []
@@ -26,14 +63,20 @@ def getText(nodelist):
 
 def handleXML(xml):
     #print "<html>"
-    print "time is"
-    handleTime(xml.getElementsByTagName("time")[0])
-    print "log number is"
-    handleLog(xml.getElementsByTagName("log")[0])
-    for i in range(1, 5):
-        chan = "ch" + str(i)
-        print chan +" value is:"
-        handleCh(xml.getElementsByTagName(chan)[0], chan)
+    #print "time is"
+    #handleTime(xml.getElementsByTagName("time")[0])
+    #print "log number is"
+    #handleLog(xml.getElementsByTagName("log")[0])
+    data = xml.getElementsByTagName("data")[0]
+    list = data.childNodes
+    for i in list:
+        print i
+        print i.data
+        #new = i.attributes()
+        #for n in new:
+            #print n
+        #handleCh(xml.getElementsByTagName(chan)[0], chan)
+        
     
     #handleChannels(channels)
     #handleSlides(slides)
@@ -54,4 +97,4 @@ def handleTime(time):
 
 
 
-handleXML(dom)
+#handleXML(dom)

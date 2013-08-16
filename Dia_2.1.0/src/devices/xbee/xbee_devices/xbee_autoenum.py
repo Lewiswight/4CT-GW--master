@@ -308,7 +308,7 @@ class XBeeAutoEnum(DeviceBase, threading.Thread):
         # discover on the network 3 minutes after we started.
         # This allows the Dia to stabilize, configure any static XBee devices
         # and have things settle down a bit.
-        last_discover_time = digitime.real_clock() - discover_rate + 30
+        last_discover_time = digitime.real_clock() - discover_rate + 240
 
         while True:
             if self.__stopevent.isSet():
